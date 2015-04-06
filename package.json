@@ -1,0 +1,18 @@
+{
+  "name": "studio-archetype",
+  "version": "1.0.0",
+  "description": "This will generate project skeletons, similar to the mvn archetype plugin, to help standardize projects.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jen Gettings",
+  "license": "MIT",
+  "preferGlobal" : true,
+  "bin": {
+  	"generate-archetype" : "index.js"
+  },
+  "dependencies": {
+  	"inquirer" : "0.8.2",
+    "extend" : "2.0.0",
+  }
+}
